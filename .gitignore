@@ -1,0 +1,15 @@
+# Segredos — NUNCA commitar
+.env
+*.pem
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Documentos de trabalho (contratos contêm dados de clientes)
+*.pdf
+*.xlsx
+!docs/**/*.pdf
